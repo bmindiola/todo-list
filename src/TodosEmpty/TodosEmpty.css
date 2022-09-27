@@ -1,0 +1,15 @@
+.EmptyTodos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmptyTodos p {
+    font-size: xx-large;
+}
+
+.EmptyTodos img {
+    width: 40%;
+    height: 50vh;
+}

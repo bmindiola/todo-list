@@ -1,11 +1,10 @@
 import React from "react";
 import './TodoButton.css'
 
-
-function TodoButton() {
+function TodoButton({ setOpenModal }) {
 
     const onClickButton = () => {
-        alert('Modal')
+        setOpenModal(prevState => !prevState)
     }
 
     return (
@@ -17,6 +16,5 @@ function TodoButton() {
         </button>
     )
 }
-
 
 export { TodoButton }

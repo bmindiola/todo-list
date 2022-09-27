@@ -1,0 +1,12 @@
+.TodoLoading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.TodoLoading img {
+    width: 40%;
+    height: 60vh;
+}
