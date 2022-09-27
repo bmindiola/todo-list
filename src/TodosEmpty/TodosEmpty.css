@@ -13,3 +13,10 @@
     width: 40%;
     height: 50vh;
 }
+
+@media (max-width: 640px) {
+    .EmptyTodos img {
+        width: 80%;
+        height: 50vh;
+    }
+}
